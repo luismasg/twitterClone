@@ -52,6 +52,11 @@ const AppContainer = styled.div`
     display: flex;
     padding: 20px 30px;
     justify-content: space-between;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    svg {
+      color: #1da1f2;
+    }
   }
 `;
 
@@ -113,7 +118,7 @@ const HappeningContainer = styled.div`
       border: none;
     }
   }
-  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 6px solid rgba(0, 0, 0, 0.2);
 `;
 
 const Tweet = (props) => {
